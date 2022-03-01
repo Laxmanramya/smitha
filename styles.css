@@ -1,0 +1,116 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-image:url(https://static-cse.canva.com/blob/572626/1.magebyRodionKutsaevviaUnsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(45deg,red,purple,red);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+nav ul li{
+    
+    padding: 5px;
+}
+ul li a{
+    color: black;
+    /*border: 2px yellow; */
+}
+ul li a:hover{
+    color:blue;
+}
+.para-1{
+    border: 2px solid black;
+    width:800px;
+    height: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:8px;
+}
+form{
+   border: 2px solid black;
+   width: 400px;
+   height: 500px;
+   margin-top: 20px;
+   box-shadow: 5px 5px red;
+   border-radius: 25px;
+}
+.move{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_head{
+    border-bottom: 2px solid black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.form_link {
+   padding-left: 8px;
+   padding-top: 8px;
+    
+}
+.form_link input{
+    width: 95%;
+    margin-top: 4px;
+    height:20px;
+}
+.form_link input:hover{
+    color:red;
+}
+.gender{
+    padding: 15px;
+    padding-left: 8px;
+}
+.terms{
+    padding:8px;
+    padding-left: 8px;
+    margin-bottom: 4px;
+}
+.form_footer{
+    padding: 8px;
+}
+.form_footer input{
+    background: linear-gradient(45deg,red,yellow,blue);
+    height: 25px;
+    width:100px;
+    border-radius: 10px;
+}
+.page-2{
+    border:2px solid black;
+    padding:4px;
+    
+    width:800px;
+    height:500;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(50px,50px);
+}
+h2{
+    background: linear-gradient(45deg,red,pink,blue);
+}
+img{
+    float: right;
+    border: 2px solid black;
+}
+
+
